@@ -32,7 +32,7 @@ st.set_page_config(page_title="Customer Churn Dashboard", layout="wide")
 
 #Loading the model
 #model=joblib.load("churn_model.pkl'")
-BASE_DIR = os.getcwd()
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 model_path = os.path.join(BASE_DIR, "churn_model.pkl")
 
 model = joblib.load(model_path)
