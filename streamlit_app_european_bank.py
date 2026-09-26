@@ -7,9 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1L8WfQQ2Df_Ngn4i4DuGsJaW-GkK0uqsh
 """
 # pip install matplotlib seaborn
-matplotlib
-pandas
-seaborn
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -18,17 +16,6 @@ import seaborn as sns
 import joblib
 import os
 
-
-
-# import pickle
-
-# # Open the file in binary read mode
-# with open('churn_model.pkl', 'rb') as file:
-#     data = pickle.load(file)
-
-# # View the contents of the file
-# print(type(data))
-# print(data)
 
 st.set_page_config(page_title="Customer Churn Dashboard", layout="wide")
 
