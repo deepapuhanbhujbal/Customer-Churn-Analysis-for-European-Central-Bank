@@ -7,7 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1L8WfQQ2Df_Ngn4i4DuGsJaW-GkK0uqsh
 """
 # pip install matplotlib seaborn
-streamlit
 matplotlib
 pandas
 seaborn
