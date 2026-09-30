@@ -1,0 +1,9 @@
+#Libraries that are used in this project
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+xgboost
+joblib
